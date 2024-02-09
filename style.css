@@ -1,0 +1,98 @@
+body {
+  background-color: #f1f5f8;
+  margin: 0 auto;
+  padding: 80px 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.grocery-section {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px #d5d4d4;
+  padding: 30px;
+  text-align: center;
+}
+
+.alert {
+  font-size: 1rem;
+}
+
+.grocery-section h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.grocery-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.grocery-form input {
+  background-color: #f1f5f8;
+  color: #617d98;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  padding: 8px 10px;
+  flex-grow: 1;
+}
+
+#submit-btn {
+  border: none;
+  padding: 8px 10px;
+  border-radius: 0 10px 10px 0;
+  background-color: #a5d5f8;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  background-color: #49a6e9;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.grocery-items {
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+}
+
+.item-text {
+  color: #102a42;
+}
+
+.btn-icons {
+  display: flex;
+  gap: 10px;
+}
+.btn-icons button {
+  cursor: pointer;
+  border: none;
+  padding: 2px;
+  background-color: #ffffff;
+}
+
+.btn-edit {
+  color: #6be675;
+}
+.btn-delete {
+  color: #e66b6b;
+}
+
+.clear {
+  text-decoration: none;
+  color: #e66b6b;
+}
+
+.clear:hover {
+  color: #bb2525;
+  transition: 0.4s;
+}
