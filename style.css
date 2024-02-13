@@ -76,15 +76,16 @@ body {
 .btn-icons button {
   cursor: pointer;
   border: none;
-  padding: 2px;
   background-color: #ffffff;
 }
 
 .btn-edit {
   color: #6be675;
+  padding: 10px;
 }
 .btn-delete {
   color: #e66b6b;
+  padding: 10px;
 }
 
 .clear {
